@@ -2,6 +2,21 @@
 
 Book code for testing method and property.
 
+## Compile
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
+
+executable file path: `build/bin`
+
+
+---
+
+# Content Record
+
 
 ## Chapter2
 
