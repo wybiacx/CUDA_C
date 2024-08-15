@@ -76,7 +76,7 @@ int main(int argc, char **argv) {
     cudaMemcpy(d_A, h_A, nBytes, cudaMemcpyHostToDevice);
     cudaMemcpy(d_B, h_B, nBytes, cudaMemcpyHostToDevice);
 
-    int iLen = 512;
+    int iLen = 1024;
     dim3 block (iLen);
     // dim3 block (1);
     dim3 grid ((nElem + block.x - 1) / block.x);
