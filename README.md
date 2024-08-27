@@ -1,6 +1,6 @@
 # CUDA C Programing
 
-Book code for testing method and property.
+CUDA code for testing method and features.
 
 ## Compile
 
@@ -17,6 +17,9 @@ executable file path: `build/bin`
 
 # Content Record
 
+## Samples
+
+Some cuda features and method examples. Like `Stream`, `__shared__ memory`, `Event Profiler`..
 
 ## Chapter2
 
